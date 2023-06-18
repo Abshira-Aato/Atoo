@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+height: 900px;
+    display: flex;
+text-align: center;
+justify-content: center;
+
+background-image: url(./2.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+padding-top: 2%;
+}
+.link{
+    margin-left: -6%;
+    padding: 12px 2rem;
+}
+.link ul{
+
+    gap: 2rem;
+    display: flex;
+}
+.link ul li{
+    
+    list-style: none;
+    font-size: 28px;
+
+}
+a{
+
+color: white;
+    text-decoration: none;
+
+}
+a:hover{
+    color:yellow
+}
+.logo h1{
+font-size: 40px;
+color: rgb(255, 251, 251);
+
+margin-left: -233%;
+
+
+
+}
+.but{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 88%;
+    top:7%;
+    font-size: 23px;
+    display: none;
+  
+}
+.action_btn{
+    background-color: orange;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 6px 9px;
+    border-radius: 20px;
+    font-weight: bold;
+    position: absolute;
+right: 14%;
+top: 56px;
+}
+.action_btn{
+    scale: 0.95;
+}
+
+.dropdown_menu .ab{
+    background-color: orange;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 6px 9px;
+    border-radius: 20px;
+    font-weight: bold;
+
+
+}
+
+.dropdown_menu{
+    display: none;
+    background: rgba(255, 255, 255, 0.1);
+    width: 200px;
+    height: 200px;
+    margin-left: 5%;
+ border-radius: 12px;
+ text-align: center;
+
+}
+
+.dropdown_menu ul li{
+    list-style: none;
+    padding: 6px;
+    padding-bottom: 12px;
+}
+.dropdown_menu .open{
+    height: 400px;
+}
+.asv {
+    text-align: center;
+    position: absolute;
+    top: 45%;
+}
+
+.asv h1{
+    color: white;
+    font-size: 54px;
+}
+.asv p{
+    color: white;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 700px) {
+   
+.header{
+    padding-left: 12%;
+    padding-top: 8%;
+}
+    .but{
+        display: block;
+        margin-left: -2%;
+        font-size: 20px;
+        margin-top: -10px;
+
+    }
+ 
+    .link ul li{
+        font-size: 16px;
+        margin-left: 12px;
+   display: none;
+
+    }
+   
+    .header h1{
+        font-size: 23px;
+   
+    }
+    .action_btn{
+        display: none;
+    }
+    .dropdown_menu.active{
+        display: block;
+    }
+
+}
+
